@@ -1,9 +1,11 @@
 # color-changer
 
-this is the first JavaScript project I'm beginning and will utlize some new ideas I've been having lately. 
+Hey, everyone!
 
-Currently, this project is still being developed but feel free to check out and use any of this material for your own personal uses.
+This is my first JavaScript project I'm beginning and will utlize some new ideas I've been having lately. 
+
+I'm really excited to see how it's turned out and how closely it turned out to what was in my mind.
 
 Feel free to contact me with any questions or suggestions at jonathonmichealgarcia@gmail.com.
 
-Thanks for everything and happy coding!
+Thanks for viewing this and and happy coding!
