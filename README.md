@@ -6,4 +6,4 @@ Currently, this project is still being developed but feel free to check out and 
 
 Feel free to contact me with any questions or suggestions at jonathonmichealgarcia@gmail.com.
 
-Thanks for everything!
+Thanks for everything and happy coding!
