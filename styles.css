@@ -1,0 +1,149 @@
+:root {
+    --red: #FF0000;
+    --orange: #FFA600;
+    --yellow: #F0F000;
+    --blue: #0059FF;
+    --cyan: #00F2FF;
+    --black: #080808;
+    --lgray:  #C2BFC9;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--black);
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+/* header */
+
+header {
+    width: 100%;
+}
+
+header nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.link {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+
+.main-title {
+    margin-bottom: 2%;
+}
+
+.title {
+    text-align: center;
+}
+
+/*colors to change with js */
+
+.color1 {
+    background-color: var(--red);
+}
+
+.color2 {
+    background-color: var(--orange);
+}
+
+.color3 {
+    background-color: var(--yellow);
+}
+
+.color4 {
+    background-color: var(--blue);
+}
+
+.color5 {
+    background-color: var(--cyan);
+}
+
+.color-body {
+    width: 70vw;
+    height: 70vh;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.color-section {
+    width: 20%;
+    height: 70vh;
+    display: inline-block;
+}
+
+.button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button1 {
+    background-color: var(--purple);
+    padding: 10px 40px;
+}
+
+/* Generic colors and shapes to reuse */
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid var(--lgray);
+}
+
+.red {
+    color: var(--red)
+}
+
+.orange {
+    color: var(--orange)
+}
+
+.yellow {
+    color: var(--yellow)
+}
+
+.blue {
+    color: var(--blue)
+}
+
+.cyan {
+    color: var(--cyan)
+}
+
+.red-line {
+    border-bottom: 1px solid var(--red);
+    border-left: 1px solid var(--red);
+}
+
+.orange-line {
+    border-bottom: 1px solid var(--orange);
+    border-left: 1px solid var(--orange);
+}
+
+.yellow-line {
+    border-bottom: 1px solid var(--yellow);
+    border-left: 1px solid var(--yellow);
+}
+
+.blue-line {
+    border-bottom: 1px solid var(--blue);
+    border-left: 1px solid var(--blue);
+}
+
+.cyan-line {
+    border-bottom: 1px solid var(--cyan);
+    border-left: 1px solid var(--cyan);
+}
