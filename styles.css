@@ -45,6 +45,8 @@ nav a{
 
 .main-title {
     margin-bottom: 2%;
+    font-size: 40px;
+    text-align: center;
 }
 
 .title {
@@ -84,6 +86,10 @@ nav a{
     width: 20%;
     height: 70vh;
     display: inline-block;
+}
+
+.color-section:hover {
+    opacity: .7;
 }
 
 .button {
@@ -128,9 +134,19 @@ nav a{
     border-left: 1px solid var(--red);
 }
 
+.red-line:hover {
+    background-color: var(--red);
+    opacity: .5;
+}
+
 .orange-line {
     border-bottom: 1px solid var(--orange);
     border-left: 1px solid var(--orange);
+}
+
+.orange-line:hover {
+    background-color: var(--orange);
+    opacity: .5;
 }
 
 .yellow-line {
@@ -138,12 +154,66 @@ nav a{
     border-left: 1px solid var(--yellow);
 }
 
+.yellow-line:hover {
+    background-color: var(--yellow);
+    opacity: .5;
+}
+
 .blue-line {
     border-bottom: 1px solid var(--blue);
     border-left: 1px solid var(--blue);
 }
 
+.blue-line:hover {
+    background-color: var(--blue);
+    opacity: .5;
+}
+
 .cyan-line {
     border-bottom: 1px solid var(--cyan);
     border-left: 1px solid var(--cyan);
+}
+
+.cyan-line:hover {
+    background-color: var(--cyan);
+    opacity: .5;
+}
+
+.large {
+    font-size: 100px;
+    animation-name: changer;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* these are the animations */
+
+@keyframes changer {
+    0% {
+        color: var(--red);
+    }
+    12% {
+        color: var(--orange);
+    }
+    25% {
+        color: var(--yellow);
+    }
+    37% {
+        color: var(--blue);
+    }
+    50% {
+        color: var(--cyan);
+    }
+    62% {
+        color: var(--blue);
+    }
+    75% {
+        color: var(--yellow);
+    }
+    87% {
+        color: var(--orange);
+    }
+    100% {
+        color: var(--red)
+    }
 }
